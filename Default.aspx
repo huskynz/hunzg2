@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>HuskyNZ</h1>
-        <p class="lead">Welcome to Gen 2 of HuskyNZ&#39;s website to viwe the gen 1 (legacey) site click the button below</p>
+        <p class="lead">Welcome to HuskyNZ</p>
         <p><a href="/gen1/" class="btn btn-primary btn-lg">Leagecey &raquo;</a></p>
     </div>
 
