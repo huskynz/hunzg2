@@ -13,7 +13,7 @@
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="https://cdn.husky.nz" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.husky.nz/logo/default.png" rel="shortcut icon" type="image/x-icon" />
 
 </head>
 <body>
