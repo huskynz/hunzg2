@@ -11,8 +11,8 @@
           
            <iframe id="hunzdownload"
     title="Download"
-    width="300"
-    height="200"
+    width="800"
+    height="800"
     src="http://download.cdn.huskynz.me">
 </iframe>
 
