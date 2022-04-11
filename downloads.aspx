@@ -13,7 +13,7 @@
     title="Download"
     width="300"
     height="200"
-    src="https://download.cdn.husky.nz">
+    src="https://download.cdn.huskynz.me">
 </iframe>
 
            
