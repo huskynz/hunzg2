@@ -5,7 +5,8 @@
     <div class="jumbotron">
         <h1>HuskyNZ</h1>
         <p class="lead">Welcome to HuskyNZ</p>
-        <p><a href="/gen1/" class="btn btn-primary btn-lg">Leagecey &raquo;</a></p>
+        <p><a href="https://about.husky.nz" class="btn btn-primary btn-lg">Learn more about HuskyNZ (Main)&raquo;</a></p>
+        <p><a href="https://hunz-about.webflow.io" class="btn btn-primary btn-lg">Learn more about HuskyNZ (backup)&raquo;</a></p>
     </div>
 
     <div class="row">
@@ -15,6 +16,13 @@
                 &nbsp;</p>
             <p>
                 <a class="btn btn-default" href="https://about.husky.nz">Click here &raquo;</a>
+            </p>
+             <h2>HuskyNZ's downloads</h2>
+            <p>
+                &nbsp;</p>
+            <p>
+                <a class="btn btn-default" href="https://download.cdn.husky.nz">Click here (main)&raquo;</a>
+                 <a class="btn btn-default" href="https://download.cdn.huskynz.me">Click here (backup0)&raquo;</a>
             </p>
         </div>
     </div>
