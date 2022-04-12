@@ -68,6 +68,8 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - HuskyNZ</p>
+                <p>By use of this site and all of HuskyNZ's sites your agreeing to HuskyNZ Terms of Use and HuskyNZ's Privacy
+       Policy </p>
             </footer>
         </div>
 
