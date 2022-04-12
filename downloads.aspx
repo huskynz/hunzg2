@@ -6,12 +6,12 @@
             <p>
                 &nbsp;</p>
             <p>
-                <a class="btn btn-default" href="http://download.cdn.husky.nz/?r=/download&path=L0FwcC92MC4yL2h1bnpicm93c2VyLmV4ZQ%3D%3D">Download (main)&raquo;</a>
-                <a class="btn btn-default" href="http://download.cdn.huskynz.me/?r=/download&path=L0FwcC92MC4yL2h1bnpicm93c2VyLmV4ZQ%3D%3D">Download (backup1)&raquo;</a>
+                <a class="btn btn-default" href="https://download.cdn.husky.nz/?r=/download&path=L0FwcC92MC4yL2h1bnpicm93c2VyLmV4ZQ%3D%3D">Download (main)&raquo;</a>
+                <a class="btn btn-default" href="https://download.cdn.huskynz.me/?r=/download&path=L0FwcC92MC4yL2h1bnpicm93c2VyLmV4ZQ%3D%3D>Download (backup1)&raquo;</a>
                 
                 
-                <a class="btn btn-default" href="http://download.cdn.husky.nz/">All downloads (main)&raquo;</a>
-                <a class="btn btn-default" href="http://download.cdn.huskynz.me/">All downloads (backup1)&raquo;</a>
+                <a class="btn btn-default" href="https://download.cdn.husky.nz/">All downloads (main)&raquo;</a>
+                <a class="btn btn-default" href="https://download.cdn.huskynz.me/">All downloads (backup1)&raquo;</a>
           
            
            
