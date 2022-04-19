@@ -5,7 +5,7 @@ This is a repo that HuskyNZ gen2 code is hosted [for HuskyNZ's main site here](h
 
 # Where are HuskyNZ's Downloads?
 
-HuskyNZ's Downloads are  [Here](https://download.cdn.husky.nz)
+HuskyNZ's Downloads are  [Here](https://download.cdn.husky.nz) Login with User and 12345
 
 # What has been Deprecated?
 
