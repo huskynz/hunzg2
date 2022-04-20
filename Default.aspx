@@ -18,11 +18,13 @@
                 <a class="btn btn-default" href="https://about.husky.nz">Click here &raquo;</a>
             </p>
              <h2>HuskyNZ's downloads</h2>
+             <h1>Login with User and 12345</h1>
             <p>
                 &nbsp;</p>
             <p>
                 <a class="btn btn-default" href="https://download.cdn.husky.nz">Click here (main)&raquo;</a>
                  <a class="btn btn-default" href="https://download.cdn.huskynz.me">Click here (backup0)&raquo;</a>
+
             </p>
         </div>
     </div>
