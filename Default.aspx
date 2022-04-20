@@ -18,7 +18,7 @@
                 <a class="btn btn-default" href="https://about.husky.nz">Click here &raquo;</a>
             </p>
              <h2>HuskyNZ's downloads</h2>
-             <h1>Login with User and 12345</h1>
+             <p>Login with User and 12345</p>
             <p>
                 &nbsp;</p>
             <p>
