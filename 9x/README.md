@@ -1,1 +1,1 @@
-This is the code/repo for my site https://www.husky.nz which is alwas evoling and changeing app relese may be put up here in te fucher aswell but fornow the will be on my download sever
+This is for browser running on windows 9x eg windows 3 3.1 95 98 and me
