@@ -34,11 +34,7 @@
 <!--This is for navbar at the top of the page-->
   <ul class="topnav">
     <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="#">Help Desk</a></li>
     <li><a href="../redirect/link.html">Contact</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">HuskyNZ Search</a></li>
-    <li><a href="#">HuskyNZ web browser </a></li>
      <!--DO NOT Delet this code below (This is for Terms of service and Privacy Policy)-->
     <li><a href="/Pages/toc.html">Terms of service</a></li>
      <li><a href="/Pages/Privacy-Policy.html">Privacy Policy</a></li>
