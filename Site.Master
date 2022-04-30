@@ -56,7 +56,6 @@
                         <li><a runat="server" href="~/redirect/help.html">Help Desk</a></li>
                         <li><a runat="server" href="~/search">HuskyNZ Search</a></li>
                         <li><a runat="server" href="~/downloads">Downloads</a></li>
-                        <li><a runat="server" href="~/gen1">gen1</a></li>
                         <li><a runat="server" href="~/Pages/toc.html">Terms of service</a></li>
                         <li><a runat="server" href="~/Pages/Privacy-Policy.html">Privacy Policy</a></li>
                     </ul>
