@@ -22,6 +22,6 @@ currently being supported.
 | <2   | :x:                |
 | All Husky-Webdev branded apps   | :x:|
 
-## Reporting a Vulnerability
+## Reporting a Vulnerability or Bug
 
 Email Support@husky.nz with the Vulnerability or bug and it will be added to the pipline
