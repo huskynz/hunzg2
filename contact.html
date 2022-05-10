@@ -67,26 +67,14 @@
         </div>
     </div>
     <!--This is for the main content-->
-    <div class="container body-content">
-        <div class="container">
-            <form Action="mailto:mail@husky.nz" METHOD="POST" ENCTYPE="text/plain">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-              <label for="lname">Email</label>
-              <input type="text" id="email" name="email" placeholder="Your email..">
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
+    <form method="POST" action="email.asp">
+        To <input type="text" name="To"/> <br />
+        Email  <input type="text" name="userEmail"/> <br />
+        Subject  <input type="text" name="Subject"/> <br />
+        Body <textarea name="Body" rows="5" cols="20" wrap="physical" > 
+        </textarea>
+        <input type="submit" />
+        </form>
 
 <!--inline css-->
 
