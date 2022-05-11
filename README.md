@@ -11,8 +11,13 @@ HuskyNZ's Downloads are  [Here](https://download.cdn.husky.nz) Login with User a
 
 All Deprecated Items are are available on about.huskynz linked [Here](https://about.husky.nz/eol)
 
+# Have a issue on github with one of HuskyNZ's repos?
+
+Email github@husky.nz and we will look at the repo you metion
+
 # Need support with a product 
 Check the support [portal](https://huskynz.atlassian.net/servicedesk/customer/portals) or Email support@husky.nz
+
 
 By use of this site and all of HuskyNZ's sites your agreeing to HuskyNZ Terms of Use and HuskyNZ's Privacy Policy
 © 2022 - HuskyNZ
