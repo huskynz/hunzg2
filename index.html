@@ -35,15 +35,42 @@
       <link rel="icon" type="image/png" sizes="16x16"
           href="https://hunz-static.azurewebsites.net/logo/favicon_io/favicon-16x16.png">
       <link rel="manifest" href="manifest.json" />
-
-<!--This is for the title-->
-    <title>HuskyNZ | Home</title>
-    
 <script type="module">
    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
    const el = document.createElement('pwa-update');
    document.body.appendChild(el);
 </script>
+
+
+ <script>
+     // load Branch
+     (function (b, r, a, n, c, h, _, s, d, k) {
+         if (!b[n] || !b[n]._q) {
+             for (; s < _.length;) c(h, _[s++]);
+             d = r.createElement(a);
+             d.async = 1;
+             d.src = "https://cdn.branch.io/branch-latest.min.js";
+             k = r.getElementsByTagName(a)[0];
+             k.parentNode.insertBefore(d, k);
+             b[n] = h
+         }
+     })(window, document, "script", "branch", function (b, r) {
+             b[r] = function () {
+                 b._q.push([r, arguments])
+             }
+         }, {
+             _q: [],
+             _v: 1
+         },
+         "addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking"
+         .split(" "), 0);
+     // init Branch
+     branch.init('key_live_df1NRIY5OClWMN675aRpWfpoqsahZc7xE');
+ </script>
+
+
+<!--This is for the title-->
+    <title>HuskyNZ | Home</title>
 
 </head>
 
