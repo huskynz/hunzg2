@@ -43,7 +43,6 @@
 <script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossorigin="anonymous"></script>
 <script>window.LogRocket && window.LogRocket.init('omvjyw/huskynz');</script>
 
-
  <script>
      // load Branch
      (function (b, r, a, n, c, h, _, s, d, k) {
@@ -70,6 +69,29 @@
      branch.init('key_live_df1NRIY5OClWMN675aRpWfpoqsahZc7xE');
  </script>
 
+<script src="https://browser.sentry-cdn.com/6.19.7/bundle.min.js"
+    integrity="sha384-KXjn4K+AYjp1cparCXazrB+5HKdi69IUYz8glD3ySH3fnDgMX3Wg6VTMvXUGr4KB" crossorigin="anonymous">
+</script>
+
+<script src="https://browser.sentry-cdn.com/6.19.7/bundle.tracing.min.js"
+    integrity="sha384-lEBvyPG01tsv1WahtwAQevkCCh3NjqUNlz93IATGFmFuVbVyx6dReoQ035OOjNsM" crossorigin="anonymous">
+</script>
+
+<script>
+import * as Sentry from "@sentry/browser";
+import { BrowserTracing } from "@sentry/tracing";
+
+Sentry.init({
+dsn: "https://4859ca7cbd7b4c1a9acb12755d7a4b21@o1267611.ingest.sentry.io/6454168",
+integrations: [new BrowserTracing()],
+
+// Set tracesSampleRate to 1.0 to capture 100%
+// of transactions for performance monitoring.
+// We recommend adjusting this value in production
+tracesSampleRate: 1.0,
+});
+
+</script>
 
 <!--This is for the title-->
     <title>HuskyNZ | Home</title>
