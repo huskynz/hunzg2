@@ -1,194 +1,158 @@
 <!DOCTYPE html>
-
-<head>
-    <!--Main Css pull (from remote)-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.husky.nz/CSS/styals.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.husky.nz/CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.husky.nz/CSS/nav.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.husky.nzUpdate/CSS/drop.css">
-    <!--Backup Css pull (Due to RC being full of crap)(Will be removed if rc gets off their high horse)-->
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/styals.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/nav.css">
-    <link rel="stylesheet" type="text/css" href="https://hunz-static.azurewebsites.net/CSS/drop.css">
-    <!--Backup Css pull (Due to RC being full of crap)(Will be removed if rc gets off there high horse) Above-->
-
-    <!--Any local CSS pull-->
-    <link rel="stylesheet" type="text/css" href="/Content/Site.css">
-    <link rel="stylesheet" type="text/css" href="/Content/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="/Content/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="/Content/bootstrap-theme.min.css">
-    <!-- Any local JS Scripts needed to be pulled-->
-    <script src="/Scripts/jquery-3.1.1.js"></script>
-    <script src="/Scripts/bootstrap.js"></script>
-    <script src="/Scripts/bootstrap.min.js"></script>
-    <script src="/Scripts/jquery-3.4.1.intellisense.js"></script>
-    <script src="/Scripts/jquery-3.4.1.min.js"></script>
-    <script src="/Scripts/jquery-3.4.1.slim.js"></script>
-    <script src="/Scripts/jquery-3.4.1.slim.min.js"></script>
-    <script src="/Scripts/modernizr-2.8.3.js"></script>
-      <!--Pulles in favicon and fonts-->
-      <link rel="apple-touch-icon" sizes="180x180"
-          href="https://hunz-static.azurewebsites.net/logo/favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32"
-          href="https://hunz-static.azurewebsites.net/logo/favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16"
-          href="https://hunz-static.azurewebsites.net/logo/favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="manifest.json" />
-<script type="module">
-   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-   const el = document.createElement('pwa-update');
-   document.body.appendChild(el);
-</script>
-<script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossorigin="anonymous"></script>
-<script>window.LogRocket && window.LogRocket.init('omvjyw/huskynz');</script>
-
- <script>
-     // load Branch
-     (function (b, r, a, n, c, h, _, s, d, k) {
-         if (!b[n] || !b[n]._q) {
-             for (; s < _.length;) c(h, _[s++]);
-             d = r.createElement(a);
-             d.async = 1;
-             d.src = "https://cdn.branch.io/branch-latest.min.js";
-             k = r.getElementsByTagName(a)[0];
-             k.parentNode.insertBefore(d, k);
-             b[n] = h
-         }
-     })(window, document, "script", "branch", function (b, r) {
-             b[r] = function () {
-                 b._q.push([r, arguments])
-             }
-         }, {
-             _q: [],
-             _v: 1
-         },
-         "addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking"
-         .split(" "), 0);
-     // init Branch
-     branch.init('key_live_df1NRIY5OClWMN675aRpWfpoqsahZc7xE');
- </script>
-
-<script src="https://browser.sentry-cdn.com/6.19.7/bundle.min.js"
-    integrity="sha384-KXjn4K+AYjp1cparCXazrB+5HKdi69IUYz8glD3ySH3fnDgMX3Wg6VTMvXUGr4KB" crossorigin="anonymous">
-</script>
-
-<script src="https://browser.sentry-cdn.com/6.19.7/bundle.tracing.min.js"
-    integrity="sha384-lEBvyPG01tsv1WahtwAQevkCCh3NjqUNlz93IATGFmFuVbVyx6dReoQ035OOjNsM" crossorigin="anonymous">
-</script>
-
-<script>
-import * as Sentry from "@sentry/browser";
-import { BrowserTracing } from "@sentry/tracing";
-
-Sentry.init({
-dsn: "https://4859ca7cbd7b4c1a9acb12755d7a4b21@o1267611.ingest.sentry.io/6454168",
-integrations: [new BrowserTracing()],
-
-// Set tracesSampleRate to 1.0 to capture 100%
-// of transactions for performance monitoring.
-// We recommend adjusting this value in production
-tracesSampleRate: 1.0,
-});
-
-</script>
-
-<!--This is for the title-->
-    <title>HuskyNZ | Home</title>
-
-</head>
-
-<body>
-    <!--This is for the nav bar-->
-    <div class="navbar navbar-inverse ">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="./" class="navbar-brand">HuskyNZ</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="./">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://huskynz.atlassian.net/servicedesk/customer/portal/3">Help Desk</a></li>
-                    <li><a href="search.html">HuskyNZ Search</a></li>
-                    <li><a href="downloads">Downloads</a></li>
-                    <li><a href="Pages/toc.html">Terms of service</a></li>
-                    <li><a href="Pages/Privacy-Policy.html">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--This is for the main content-->
-    <div class="container body-content">
-
-
-        <div class="jumbotron">
-            <h1>HuskyNZ</h1>
-            <p class="lead">Welcome to HuskyNZ | The home of azure hybrid things</p>
-            <p><a href="https://about.husky.nz" class="btn btn-primary btn-lg">Learn more about HuskyNZ
-                    (Main)&raquo;</a></p>
-            <p><a href="https://hunz-about.webflow.io" class="btn btn-primary btn-lg">Learn more about HuskyNZ
-                    (backup)&raquo;</a></p>
-        </div>
-<!--This is for the footer-->
-        <div class="row">
-            <div class="col-md-4">
-                <h2>About HuskyNZ</h2>
-                <p>
-                    &nbsp;</p>
-                <p>
-                    <a class="btn btn-default" href="https://about.husky.nz">Click here &raquo;</a>
-                    <a class="btn btn-default" href="https://hunz-about.webflow.io">Backup &raquo;</a>
-                </p>
-                <h2>HuskyNZ's downloads</h2>
-                <p>Login with User and 12345</p>
-                <p>
-                    &nbsp;</p>
-                <p>
-                    <a class="btn btn-default" href="https://download.cdn.husky.nz">Click here (main)&raquo;</a>
-                    <a class="btn btn-default" href="https://download.cdn.huskynz.me">Click here
-                        (backup0)&raquo;</a>
-
-                </p>
-            </div>
-        </div>
-
-
-        <hr />
-       <!--This is for the bottem page text eg.you agree to HuskyNZ's toc and privpol and MFS logo-->
-        <footer>
-            <a href="https://startups.microsoft.com/"><img src="https://cdn.huskynz.me/mfs/MS_Startups_Celebration_Badge_Dark.png"  width="30%" height="30%"></a>
-
-            
-            <p>&copy; 2022 - HuskyNZ</p>
-            <p>By use of this site and all of HuskyNZ's sites your agreeing to HuskyNZ Terms of Use and HuskyNZ's
-                Privacy
-                Policy </p>
-        </footer>
-    </div>
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css" />
+   <title>Document</title>
+ </head>
+ <body>
+   <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">MUO</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="/">Home</a></li>
+         <li><a href="/">About</a></li>
+         <li class="services">
+           <a href="/">Services</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown">
+             <li><a href="/">Dropdown 1 </a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 3</a></li>
+             <li><a href="/">Dropdown 4</a></li>
+           </ul>
+         </li>
+         <li><a href="/">Pricing</a></li>
+         <li><a href="/">Contact</a></li>
+       </div>
+     </ul>
+   </nav>
+   <style>
+       /* UTILITIES */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: cursive;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ background-color: teal;
+ color: #fff;
+}
+.nav-links a {
+ color: #fff;
+}
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+.menu li:hover {
+ background-color: #4c9e9e;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+ position: relative; 
+}
+.dropdown {
+ background-color: rgb(1, 139, 139);
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+.services:hover .dropdown {
+ display: block;
+}
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+ display: none;
+} 
+/*HAMBURGER MENU*/
+.hamburger {
+ display: none;
+ font-size: 24px;
+ user-select: none;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+.menu { 
+ display:none;
+ position: absolute;
+ background-color:teal;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.menu li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.menu li + li {
+ margin-top: 12px;
+}
+input[type=checkbox]:checked ~ .menu{
+ display: block;
+}
+.hamburger {
+ display: block;
+}
+.dropdown {
+ left: 50%;
+ top: 30px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+}
+   </style>
+ </body>
 </html>
