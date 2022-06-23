@@ -1,3 +1,1 @@
-This repo is used to host HuskyNZ's main site code aswell as a roadmap and issues
-
-Have a look at the wiki for more info
+This repo will live on but is being moved to a side project as im moveing to webflow for the primary site as it allows me to build a better website
