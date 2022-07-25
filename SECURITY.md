@@ -53,4 +53,4 @@ Email security@husky.nz with the Vulnerability or bug and it will be added to th
 
 ## If you would like to have Extened support
 
-Extened support comeing soon keep an eye out
+Extened support comeing soon keep an eye out (for more info email extsupport@husky.nz and you may get early accsess)
