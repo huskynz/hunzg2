@@ -1,1 +1,1 @@
-This repo will live on but is being moved to a side project as im moveing to webflow for the primary site as it allows me to build a better website
+This repo is hosting  the code for HuskyNZ's g3 selfbuilt code G4 is built useing diffrent tech but g5 will move back to this repo hopefully
