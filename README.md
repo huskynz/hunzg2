@@ -1,1 +1,1 @@
-This repo is hosting  the code for HuskyNZ's g3 selfbuilt code G4 is built useing diffrent tech but g5 will move back to this repo hopefully
+This repo is hosting curentley HuskyNZ's Gen3 main site G4 the currunt site if build useing something difftrent but G5 the next gen will be moved back to this repo
