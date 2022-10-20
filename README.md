@@ -1,1 +1,1 @@
-This repo is hosting curentley HuskyNZ's Gen3 main site G4 the currunt site if build useing something difftrent but G5 the next gen will be moved back to this repo
+This repo holds gen3 of HuskyNZ's main site gen 5 has been moved to https://github.com/HuskyNZofficial/g5 and g6 will be put at https://github.com/HuskyNZofficial/g6
