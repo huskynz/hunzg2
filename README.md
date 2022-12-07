@@ -1,1 +1,1 @@
-This repo holds gen3 of HuskyNZ's main site gen 5 has been moved to https://github.com/HuskyNZofficial/g5 and g6 will be put at https://github.com/HuskyNZofficial/g6
+This repo holds gen3 of HuskyNZ's main site, and serves a base for HuskyNZ's gen6 docker based website this repo is now read onley
